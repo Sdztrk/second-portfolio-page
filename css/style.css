@@ -4,6 +4,9 @@
 @import url("about.css");
 @import url("experience.css");
 @import url("project.css");
+@import url("resume.css");
+@import url("contact.css");
+@import url("footer.css");
 
 /* Variables for the colors */
 :root{
@@ -26,6 +29,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 body{
     margin: 0;
@@ -36,9 +40,3 @@ body{
     color: var(--font-light-color);
 }
 
-/* .popUp{
-    background-color: rgba(0, 0, 139, 0.329);
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-} */

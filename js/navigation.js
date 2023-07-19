@@ -43,17 +43,14 @@ window.addEventListener('scroll', () => {
     else{
         aboutLink.classList.remove('active');
     } 
-        
-    
 }
-)
-}
+)}
 
 
 // window.addEventListener('scroll', () => {
 //     console.log(myProjectsSection.getBoundingClientRect().top)
 // })
 //about top =  between -37 and -868
-//experinece top =  between 106 and -879
+//experinece top =  between 106 and -780
 //myprojects top = between 65 and -774
 

@@ -2,6 +2,7 @@
 //importing the navigation event listeners from the navigation.js file
 import { projectEventListeners,experienceEventListeners,aboutEventListeners } from './navigation.js';
 
+//Calling the functions
 projectEventListeners();
 experienceEventListeners();
 aboutEventListeners();
@@ -35,7 +36,7 @@ for (let j = 0; j < str2.length; j++) {
 }
 
 //Calling the functions
- sayingHello();
+sayingHello();
 setTimeout(sayingFrontendDev, 4000);
 
 
