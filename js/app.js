@@ -77,7 +77,7 @@ pageAbout.addEventListener('click', () => {
 const pageExperience = document.querySelector('.pageExperience');
 pageExperience.addEventListener('click', () => {
     window.scrollTo({
-        top: 1650,
+        top: 1700,
         behavior: 'smooth'
     })
 })
@@ -86,7 +86,7 @@ pageExperience.addEventListener('click', () => {
 const pageProject = document.querySelector('.pageProject');
 pageProject.addEventListener('click', () => {
     window.scrollTo({
-        top: 2500,
+        top: 2600,
         behavior: 'smooth'
     })
 })
@@ -99,6 +99,15 @@ name.addEventListener('click', () => {
         behavior: 'smooth'
     })
 })
+//window scroll to resume section
+const pageResume = document.querySelector('.pageContact');
+pageResume.addEventListener('click', () => {
+    window.scrollTo({
+        top: 3510,
+        behavior: 'smooth'
+    })
+})
+
 //window scroll to arrow
 const scrollTop= document.querySelector('.scrollTop');
 scrollTop.addEventListener('click', () => {
@@ -108,40 +117,12 @@ scrollTop.addEventListener('click', () => {
     })
 })
 
-//adding foreach item eventlisteners
-const item = document.querySelector('.item');
-const overlay = document.querySelector(".overlay")
-console.log(item)
-console.log(overlay)
-
-// item.addEventListener('mouseover', () => {
-// overlay.classList.add('overlayActive');
-// })
-
-
-// item.addEventListener('mouseover', () => {
-//     overlay.classList.add("overlayActive")
-// })
-// item,addEventListener("mouseout",() => {
-//     overlay.classList.remove("overlayActive")
-// })
-
-
- const flexContainer = document.querySelector(".flexContainer")
- console.log(flexContainer)
-
-
-// flexContainer.addEventListener("mouseover",(e) => {
-//     if(e.target.classList.contains("img"))
-//     {
-//         e.target.nextElementSibling.classList.add("overlayActive")
-//     }
-// })
-
-//  flexContainer.addEventListener("mouseout",(e) => {
-//       if(e.target.classList.contains("overlay"))
-//       {
-//         console.log("true")
-//         e.target.classList.remove("overlayActive")
-//       }
-//   })
+//adding event listener to the rocket
+const rocket = document.querySelector('.pageTop');
+rocket.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+})

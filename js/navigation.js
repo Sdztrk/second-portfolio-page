@@ -46,6 +46,24 @@ window.addEventListener('scroll', () => {
 }
 )}
 
+const resume = document.querySelector('.resume');
+window.addEventListener('scroll', () => {
+    console.log(resume.getBoundingClientRect().top)
+})
+window.addEventListener('scroll', () => {
+    const resumeTop = resume.getBoundingClientRect().top;
+    const resumeLink= document.querySelector('.navUl li:nth-child(4)');
+    if(resumeTop < 50) {
+        resumeLink.classList.add('active');
+    }
+    else{
+        resumeLink.classList.remove('active');
+    }
+}
+)
+
+
+
 
 // window.addEventListener('scroll', () => {
 //     console.log(myProjectsSection.getBoundingClientRect().top)
@@ -53,4 +71,5 @@ window.addEventListener('scroll', () => {
 //about top =  between -37 and -868
 //experinece top =  between 106 and -780
 //myprojects top = between 65 and -774
+//resume top = between 24 and 900
 

@@ -38,11 +38,59 @@ footer ul{
     list-style: none;
 }
 footer ul li{
-    margin: 0 10px;
+    margin: 0 5px;
+    background-color: rgb(37, 34, 34);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.75);
+    transition: all .2s ease-in-out;
+}
+footer ul li:hover{
+    background-color: var(--primary-color);
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.75);
+    transform: scale(1.1);
 }
 footer ul li a{
     text-decoration: none;
     color: var(--font-light-color);
     font-size: 1.5rem;
     transition: all .4s ease-in-out;
+}
+footer ul li a img{
+    width: 50px;
+    height: 50px;
+    transition: all .4s ease-in-out;
+}
+.rocket a img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.rocket {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    right: 2%;
+    top: 90%;
+}
+.rocket p{
+    margin-top: -20px;
+    font-size: .7rem;
+    opacity: 0;
+}
+.rocket:hover p{
+    opacity: 1;
+    color: #314D87;
+    transition: all .4s ease-in-out;
+}
+.rocket:hover a img{
+    transition: all .4s ease-in-out;
+}
+footer p{
+    margin-top: 20px;
+    font-size: .8rem;
 }

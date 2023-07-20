@@ -21,21 +21,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
-    padding-top: 50px;
-    background-image: url(./images/projectBackground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    height: 95vh;
+    padding-top: 100px;
 }
 .myProjects{
     background-color: var(--background-light-color);
     color: var(--font-light-color);
     text-align: center;
-    margin-top: 50px;
     text-transform: uppercase;
 }
 .flexContainer{
@@ -44,7 +36,6 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 50px;
     margin-bottom: 100px;
     width: 80vw;
     position: relative;
@@ -127,4 +118,16 @@
 }
 .item img:hover{
     cursor: pointer;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%);
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all .4s ease-in-out;
 }
