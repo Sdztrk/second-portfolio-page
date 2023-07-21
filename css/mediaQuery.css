@@ -1,0 +1,43 @@
+@import url(variables.css);
+
+/* For devices with a screen width of 600px or less */
+@media screen and (max-width: 1200px) {
+   .header {
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+       }
+       nav{
+        display: flex;
+        flex-direction: column;
+
+       }
+       .container{
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       }
+         .navUl{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100vh;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: var(--primary-color);
+          transform: translateX(-100%);
+          transition: transform 0.5s ease-in-out;
+         }
+         .about{
+            margin-top: 0px;
+         }
+         .myProjectsSection{
+            margin-top: 1500px;
+         }
+   }
