@@ -51,6 +51,12 @@
          .about{
             margin-top: 0px;
          }
+         .about h1{
+            font-size: larger;
+         }
+          .about p{
+            font-size: medium;
+         } 
          .languages{
             display: flex;
             flex-direction: row;
@@ -83,7 +89,7 @@
             height: 100%;
          }
          .overlay a{
-            font-size: small;
+            font-size: smaller;
          }
          .experience{
             width: 100%;
