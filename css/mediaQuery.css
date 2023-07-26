@@ -19,7 +19,14 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 100%;
+
        }
+       .sayHello{
+         font-size: 10px;
+         text-align: center;
+         display: flex;
+      }
          .navUl{
           display: flex;
           flex-direction: column;
@@ -37,7 +44,26 @@
          .about{
             margin-top: 0px;
          }
-         .myProjectsSection{
-            margin-top: 1500px;
+         .languages{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 80%;
          }
-   }
+         .language img{
+            width: 80%;
+
+         }
+         .myProjectsSection{
+            display: flex;
+            width: 100%;
+         }
+         .experience{
+            width: 100%;
+            height: 100%;
+            margin-bottom: 200px;
+         }
+
+}
