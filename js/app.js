@@ -41,16 +41,16 @@ setTimeout(sayingFrontendDev, 4000);
 
 
 //adding event listener to sayhallo and sayfrontenddev
-sayHello.addEventListener('click', () => {
-    //removing the sayhello textcontent
-    sayHello.textContent = '';
-    sayingHello()
-})
+// sayHello.addEventListener('click', () => {
+//     //removing the sayhello textcontent
+//     sayHello.textContent = '';
+//     sayingHello()
+// })
 
-sayFrontendDev.addEventListener('click', () => {
-    sayFrontendDev.textContent = '';
-    sayingFrontendDev()
-})
+// sayFrontendDev.addEventListener('click', () => {
+//     sayFrontendDev.textContent = '';
+//     sayingFrontendDev()
+// })
 
 
 //adding navigation background color on scroll
