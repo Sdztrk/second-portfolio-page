@@ -10,7 +10,6 @@ aboutEventListeners();
 //Selectors
 const sayHello = document.querySelector('.sayHello');
 const sayFrontendDev= document.querySelector('.sayFrontendDev');
-const container = document.querySelector('.container');
 
 //Function for the saying hello text 
 const sayingHello = () => {
@@ -40,18 +39,6 @@ sayingHello();
 setTimeout(sayingFrontendDev, 4000);
 
 
-//adding event listener to sayhallo and sayfrontenddev
-// sayHello.addEventListener('click', () => {
-//     //removing the sayhello textcontent
-//     sayHello.textContent = '';
-//     sayingHello()
-// })
-
-// sayFrontendDev.addEventListener('click', () => {
-//     sayFrontendDev.textContent = '';
-//     sayingFrontendDev()
-// })
-
 
 //adding navigation background color on scroll
 const nav = document.getElementsByTagName('nav')[0];
@@ -63,6 +50,16 @@ else {
     nav.classList.remove('nav-bg');
 }
 })
+const languages = document.querySelector('.languages');
+window.addEventListener('scroll', () => {
+if (window.pageYOffset > 2230) {
+    languages.classList.add('languages-show');
+}
+})
+//finding the pageYoffset height of languages section
+console.log(languages);
+const languagesHeight = languages.scrollTop;
+console.log(languagesHeight);
 
 
 //adding eventlisteners to navigation links
@@ -110,8 +107,8 @@ pageResume.addEventListener('click', () => {
 })
 
 //window scroll to arrow
-const scrollTop= document.querySelector('.scrollTop');
-scrollTop.addEventListener('click', () => {
+const scrollAbout= document.querySelector('.scrollAbout');
+scrollAbout.addEventListener('click', () => {
     window.scrollTo({
         top: 880,
         behavior: 'smooth'

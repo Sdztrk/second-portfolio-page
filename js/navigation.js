@@ -51,9 +51,13 @@ export const projectEventListeners = () => {
 
 
 const resume = document.querySelector('.resume');
-window.addEventListener('scroll', () => {
-    console.log(resume.getBoundingClientRect().top)
-})
+// window.addEventListener('scroll', () => {
+//     console.log(resume.getBoundingClientRect().top)
+// }
+
+// )
+
+
 window.addEventListener('scroll', () => {
     const resumeTop = resume.getBoundingClientRect().top;
     const resumeLink= document.querySelector('.navUl li:nth-child(4)');

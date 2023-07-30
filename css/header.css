@@ -120,19 +120,19 @@ nav{
 .navUl li a:hover{
     color: var(--font-light-color);
 }
-.scrollTop{
+.scrollAbout{
     text-decoration: none;
     color: black;
 }
 
-.scrollTop:hover::before{
+.scrollAbout:hover::before{
     color: var(--primary-color);
     cursor: pointer;
 
 }
 
 
-.scrollTopDiv{
+.scrollAboutDiv{
     /* width: 100px;
     height: 100px;
     position: relative;
@@ -150,7 +150,7 @@ nav{
     background-color: transparent;
 }
 
-.scrollTop::before{
+.scrollAbout::before{
     content: "\2193";
     /* width: 100px;
     
