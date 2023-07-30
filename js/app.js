@@ -68,7 +68,7 @@ else {
 const pageAbout = document.querySelector('.pageAbout');
 pageAbout.addEventListener('click', () => {
     window.scrollTo({
-        top: 780,
+        top: 880,
         behavior: 'smooth'
     })
 })
@@ -77,7 +77,7 @@ pageAbout.addEventListener('click', () => {
 const pageExperience = document.querySelector('.pageExperience');
 pageExperience.addEventListener('click', () => {
     window.scrollTo({
-        top: 1700,
+        top: 1790,
         behavior: 'smooth'
     })
 })
@@ -86,7 +86,7 @@ pageExperience.addEventListener('click', () => {
 const pageProject = document.querySelector('.pageProject');
 pageProject.addEventListener('click', () => {
     window.scrollTo({
-        top: 2600,
+        top: 2690,
         behavior: 'smooth'
     })
 })
@@ -103,7 +103,7 @@ name.addEventListener('click', () => {
 const pageResume = document.querySelector('.pageContact');
 pageResume.addEventListener('click', () => {
     window.scrollTo({
-        top: 3510,
+        top: 3600,
         behavior: 'smooth'
     })
 })

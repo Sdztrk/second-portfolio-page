@@ -1,19 +1,21 @@
 
 //adding active class on navigation links
-export const projectEventListeners = () => {
 
-const myProjectsSection = document.querySelector('.myProjectsSection');
-window.addEventListener('scroll', () => {
-    const myProjectsSectionTop = myProjectsSection.getBoundingClientRect().top;
-    const projectLink= document.querySelector('.navUl li:nth-child(3)');
-    if(myProjectsSectionTop < 65 && myProjectsSectionTop > -774){
-        projectLink.classList.add('active');
+
+export const aboutEventListeners = () => {
+
+    const about = document.querySelector('.about');
+    window.addEventListener('scroll', () => {
+        const aboutTop = about.getBoundingClientRect().top;
+        const aboutLink= document.querySelector('.navUl li:nth-child(1)');
+        if(aboutTop < -50 && aboutTop > -868){
+            aboutLink.classList.add('active');
+        }
+        else{
+            aboutLink.classList.remove('active');
+        } 
     }
-    else {
-        projectLink.classList.remove('active');
-    }
-})
-}
+    )}
 
 export const experienceEventListeners = () => {
 
@@ -31,20 +33,22 @@ window.addEventListener('scroll', () => {
 )
 }
 
-export const aboutEventListeners = () => {
+export const projectEventListeners = () => {
 
-const about = document.querySelector('.about');
-window.addEventListener('scroll', () => {
-    const aboutTop = about.getBoundingClientRect().top;
-    const aboutLink= document.querySelector('.navUl li:nth-child(1)');
-    if(aboutTop < -20 && aboutTop > -868){
-        aboutLink.classList.add('active');
+    const myProjectsSection = document.querySelector('.myProjectsSection');
+    window.addEventListener('scroll', () => {
+        const myProjectsSectionTop = myProjectsSection.getBoundingClientRect().top;
+        const projectLink= document.querySelector('.navUl li:nth-child(3)');
+        if(myProjectsSectionTop < 65 && myProjectsSectionTop > -774){
+            projectLink.classList.add('active');
+        }
+        else {
+            projectLink.classList.remove('active');
+        }
+    })
     }
-    else{
-        aboutLink.classList.remove('active');
-    } 
-}
-)}
+
+
 
 const resume = document.querySelector('.resume');
 window.addEventListener('scroll', () => {
