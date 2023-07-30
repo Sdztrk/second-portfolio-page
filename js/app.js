@@ -64,6 +64,7 @@ else {
 }
 })
 
+
 //adding eventlisteners to navigation links
 const pageAbout = document.querySelector('.pageAbout');
 pageAbout.addEventListener('click', () => {

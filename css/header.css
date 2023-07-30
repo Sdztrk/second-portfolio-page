@@ -60,14 +60,21 @@ nav{
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 1px;
-    transition: all .1s ease-in-out;
+    transition: all 1s ease-in-out;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
+    transform: translateX(-300px);
 }
+
+.name-show{
+    transform: translateX(0px);
+    transition: all 1s ease-in-out;
+}
+
+
 /* .name:before{
     content: "\20B7";
     font-size: 2rem;
@@ -85,7 +92,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    transform: translateX(700px);
+    transition: all 1s ease-in-out;
 }
+.navUl-show{
+    transform: translateX(0px);
+    transition: all 1s ease-in-out;
+}
+
 .navUl li{
     list-style: none;
     margin-left: 60px;

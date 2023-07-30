@@ -66,6 +66,16 @@ window.addEventListener('scroll', () => {
 }
 )
 
+window.addEventListener('DOMContentLoaded', () => {
+    const name = document.querySelector('.name');
+    name.classList.add('name-show');
+    const navUl = document.querySelector('.navUl');
+    navUl.classList.add('navUl-show');
+})
+
+
+
+
 
 
 
