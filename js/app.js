@@ -112,7 +112,7 @@ pageResume.addEventListener('click', () => {
 const scrollTop= document.querySelector('.scrollTop');
 scrollTop.addEventListener('click', () => {
     window.scrollTo({
-        top: 780,
+        top: 880,
         behavior: 'smooth'
     })
 })
