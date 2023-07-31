@@ -8,8 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 95vh;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .myProjects{
     background-color: var(--background-light-color);
