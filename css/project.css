@@ -16,6 +16,11 @@
     text-align: center;
     text-transform: uppercase;
 }
+.subtext{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 1rem;
+}
 .flexContainer{
     display: flex;
     justify-content: space-evenly;

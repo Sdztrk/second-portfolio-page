@@ -79,6 +79,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
+// const pageHeight = window.innerHeight;
+// const pageWidth = window.innerWidth;
+// console.log("page height is:"+ pageHeight);
+// console.log("page width is:"+ pageWidth);
+
+
 
 
 
