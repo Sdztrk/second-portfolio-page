@@ -101,7 +101,7 @@ name.addEventListener('click', () => {
 const pageResume = document.querySelector('.pageContact');
 pageResume.addEventListener('click', () => {
     window.scrollTo({
-        top: 3860,
+        top: 3900,
         behavior: 'smooth'
     })
 })
