@@ -124,3 +124,5 @@ rocket.addEventListener('click', (e) => {
         behavior: 'smooth'
     })
 })
+
+// document.title=`&#8734`
