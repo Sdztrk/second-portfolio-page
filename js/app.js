@@ -13,7 +13,7 @@ const sayFrontendDev= document.querySelector('.sayFrontendDev');
 
 //Function for the saying hello text 
 const sayingHello = () => {
-let str = 'hi, I`m said, I`m a frontend developer';
+let str = 'hi, I`m said, I`m a Full Stack developer';
 let i = 0;
 let timer;
 for (let i = 0; i < str.length; i++) {
